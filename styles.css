@@ -1,0 +1,109 @@
+body
+{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   margin: 0; /* Adjust the height of the footer */
+background-color: #6B728E;
+}
+.qr-image
+{
+  /* border: 5px solid; */
+   /* position: absolute; */
+   margin: auto;
+   top: 50%;
+   /* transform: translate(-50%, -50%); */
+   padding:10px;
+   /* image-radius: 30px;   */
+
+}
+.attribution
+{
+  border: 10px inset;
+  border-radius: 30px;
+  padding: 30px;
+  background-color: #C8EED9;
+}
+.borderapply
+{
+  border: 10px outset #090580;
+  padding: 10px;
+border-radius: 30px;
+/* border-color: #001C30; */
+border-width: 10px;
+   background-color: #BDD8F1;
+   left: 50%;
+}
+.container {
+  display: grid;
+  place-items: center;
+  /* height: 100vh; /* Adjust the height as needed */ */
+}
+
+.container img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 30px;
+}
+.firstline,.secondline{
+  place-items: center;
+  display:grid;
+}
+.nV
+{
+  border:10px solid #185ADB;
+  border-radius: 30px;
+}
+ #qr-code {
+   /* border: 10px solid #FFFFFF; */
+
+    place-items:center;
+    display: grid;
+   /* display:grid; */
+  /* border: 10px solid; */
+  /* border-radius: 30px; */
+   margin: 10px auto;
+  /* background-color: #fff; */
+}
+.gap
+{padding:30px;
+
+}
+.card1
+{
+  vertical-align: super;
+position:relative;
+  display:center;
+  display: grid;
+  place-items:center;
+}
+.card
+{
+  background-color: #606470;
+}
+
+#f1
+{
+
+  color: red; /* Changing text color to red */
+  font-family: Arial, sans-serif; /* Changing font to Arial or fallback to sans-serif */
+
+
+}
+p
+{
+  color: red; /* Changing text color to red */
+  font-family: Arial, sans-serif; /* Changing font to Arial or fallback to sans-serif */
+}
+.card-footer
+{
+  /* position: relative;
+  align-items: baseline;
+ bottom: 110;
+ width: 100%;
+ height: 50px; /* Adjust the height of the footer */
+ /* background-color: #ccc; */
+  padding: 10px;
+  text-align: center;
+}
